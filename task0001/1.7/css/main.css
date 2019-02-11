@@ -312,7 +312,7 @@ a {
 
 .blogContext .blogNav .search {
     background-color: white;
-    height: 40px;
+    height: 35px;
     padding: 20px;
     margin-top: 20px;
 }
@@ -339,7 +339,7 @@ a {
     margin-top: 20px;
 }
 
-.blogContext .blogNav .kind  a {
+.blogContext .blogNav .kind a {
     display: inline-block;
     color: #999;
     width: 100%;
@@ -355,12 +355,130 @@ a {
 
 .blogContext .blogNav .dateTime {
     background-color: white;
-    height: 340px;
+    height: 260px;
     margin-top: 20px;
+    padding: 30px 0;
+}
+
+.blogContext .blogNav .dateTime .dateMain {
+    width: 90%;
+    margin: 0 auto ;
+    overflow: hidden;
+}
+
+.blogContext .blogNav .dateTime .dateMain .year {
+    width: 90%;
+    margin: 0 auto 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #a660b7;
+}
+
+.blogContext .blogNav .dateTime .dateMain .year .leftYear {
+    float: left;
+}
+
+.blogContext .blogNav .dateTime .dateMain .year .rightYear {
+    float: right;
+}
+
+ .blogContext .blogNav .dateTime .dateMain .sevenDay {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+.blogContext .blogNav .dateTime .dateMain .sevenDay span {
+    display: inline-block;
+    color: #999;
+    width: 30px;
+    height: 35px;
+}
+
+.blogContext .blogNav .dateTime .dateMain a {
+    display: inline-block;
+    color: #999;
+    width: 30px;
+    height: 35px;
+    line-height: 35px;
+}
+
+.blogContext .blogNav .dateTime .dateMain a:hover {
+    background-color: #522a5c;
+    color: white;
+}
+
+.blogContext .blogNav .dateTime .dateMain .otherDay {
+    width: 100%;
+    text-align: left;
+    padding-left: 7px;
+    border-bottom: 1px solid #eee;
+}
+
+.blogContext .blogNav .dateTime .dateMain .otherDay a {
+    text-align: center;
 }
 
 .blogContext .blogNav .tags {
     background-color: white;
-    height: 220px;
+    height: 200px;
     margin-top: 20px;
+    padding: 20px;
 }
+
+.blogContext .blogNav .tags h6 {
+    font-size: 12px;
+    color: #999;
+    margin: 0;
+}
+
+.blogContext .blogNav .tags p {
+    color: #a660b7;
+}
+
+.blogContext .blogNav .tags p .SizeLev1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.blogContext .blogNav .tags p .SizeLev2 {
+    font-size: 25px;
+}
+
+.blogContext .blogNav .tags p .SizeLev3 {
+    font-size: 20px;
+}
+
+/* about.html */
+.aboutContext {
+    width: 100%;
+    background-color: #eee;
+    padding-top: 70px;
+    padding-bottom: 20px
+}
+
+.aboutContext .aboutMain {
+    width: 980px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+}
+
+.aboutContext .aboutMain .timeLine {
+    height: 1200px;
+    margin: -1000px auto 0;
+    width: 5px;
+    background-color: #eee;
+}
+
+.aboutContext .aboutMain .myPic {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    border-radius: 90px;
+    border: 8px solid #eee;
+    margin-top: -50px;
+}
+
+
