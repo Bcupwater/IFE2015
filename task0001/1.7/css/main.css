@@ -1,10 +1,11 @@
 body {
+    width: 1920px;
     padding: 0px;
     margin: 0px;
 }
 
 ul, ol {
-    list-style-type:none;
+    list-style-type: none;
 }
 
 a {
@@ -450,29 +451,90 @@ a {
     font-size: 20px;
 }
 
+/* gallery.html */
+.galleryContext {
+    width: 1180px;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.galleryContext .galleryMain {
+    width: 980px;
+    margin: 20px auto;
+    background-color: white;
+}
+
+.galleryContext .galleryMain .waterfallsFlow {
+    width: 70%;
+    float: left;
+}
+
+.galleryContext .galleryMain .rightBar {
+    width: 29%;
+    float: right;
+}
+
+.galleryContext .galleryMain .rightBar .search {
+    background-color: white;
+    height: 35px;
+    padding: 20px;
+}
+
+.galleryContext .galleryMain .rightBar .search input {
+    height: 35px;
+    width: 85%;
+    float: left;
+    border: 1px solid #eee;
+}
+
+.galleryContext .galleryMain .rightBar .search #enter {
+    float: left;
+    height: 37px;
+    line-height: 37px;
+    font-size: 20px;
+    color: white;
+    background-color: #eee;
+    border: 1px solid #eee;
+}
+
 /* about.html */
 .aboutContext {
-    width: 100%;
+    width: 1180px;
     background-color: #eee;
-    padding-top: 70px;
-    padding-bottom: 20px
+    overflow: hidden;
 }
 
 .aboutContext .aboutMain {
     width: 980px;
-    margin: 0 auto;
+    margin: 70px auto 20px;
     background-color: white;
-    text-align: center;
+    padding-bottom: 150px;
 }
 
 .aboutContext .aboutMain .timeLine {
-    height: 1200px;
-    margin: -1000px auto 0;
     width: 5px;
+    height: 1130px;
+    float: right;
+    margin-right: 488px;
+    margin-top: -950px;
     background-color: #eee;
 }
 
-.aboutContext .aboutMain .myPic {
+.aboutContext .aboutMain .imgDivBig {
+    width: 180px;
+    height: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutContext .aboutMain .imgDivSmall {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.aboutContext .aboutMain .myPicBig {
     display: inline-block;
     width: 160px;
     height: 160px;
@@ -481,4 +543,69 @@ a {
     margin-top: -50px;
 }
 
+.aboutContext .aboutMain .myPicSmall {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 5px solid #eee;
+}
+
+.aboutContext .aboutMain .descWord {
+    margin: 0 auto;
+    width: 780px;
+    height: 130px;
+    position: relative;
+}
+
+.aboutContext .aboutMain .descWord .leftWord {
+    position: absolute;
+    top: 0;
+    right: 500px;
+    font-size: 20px;
+}
+
+.aboutContext .aboutMain .descWord .rightWord {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.aboutContext .aboutMain .descDateWord {
+    margin: 0 auto;
+    width: 780px;
+    height: 60px;
+    position: relative;
+}
+
+.aboutContext .aboutMain .descDateWord .leftWord {
+    position: absolute;
+    top: 0;
+    right: 500px;
+    font-size: 20px;
+}
+
+.aboutContext .aboutMain .descDateWord .centerWord {
+    position: absolute;
+    width: 70px;
+    top: 0;
+    left: 50%;
+    margin-left: -40px;
+    font-size: 14px;
+    color: #eee;
+    background-color: white;
+    border-radius: 8px;
+    border: 5px solid #eee;
+    text-align: center;
+}
+
+.aboutContext .aboutMain .descDateWord .rightWord {
+    position: absolute;
+    top: 0;
+    left: 500px;
+    font-size: 14px;
+    text-align: left;
+}
 
