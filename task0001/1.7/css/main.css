@@ -458,14 +458,121 @@ a {
     overflow: hidden;
 }
 
-.galleryContext .galleryMain {
+.galleryContext .tabNav {
     width: 980px;
     margin: 20px auto;
+    overflow: hidden;
+}
+
+.galleryContext .tabNav .tab {
+    float: left;
     background-color: white;
+}
+
+.galleryContext .tabNav .tab h6 {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.galleryContext .tabNav .tabNav1 {
+    border-top: 4px solid #dfc6e6;
+    border-bottom: 1px solid #eee;
+}
+
+.galleryContext .tabNav .tabNav1:hover {
+    border-top: 4px solid #522a5c;
+    border-bottom: 1px solid white;
+}
+
+.galleryContext .tabNav .tabNav2 {
+    border-top: 4px solid #dfc6e6;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.galleryContext .tabNav .tabNav2:hover {
+    border-top: 4px solid #522a5c;
+    border-bottom: 1px solid white;
+}
+
+.galleryContext .tabNav .tabNav3 {
+    border-top: 4px solid #d2a6ff;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.galleryContext .tabNav .tabNav3:hover {
+    border-top: 4px solid #5900b2;
+    border-bottom: 1px solid white;
+}
+
+.galleryContext .tabNav .tabNav4 {
+    border-top: 4px solid #ffa98c;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.galleryContext .tabNav .tabNav4:hover {
+    border-top: 4px solid #8c2300;
+    border-bottom: 1px solid white;
+}
+
+.galleryContext .tabNav .tabNav5 {
+    border-top: 4px solid #ffe188;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+.galleryContext .tabNav .tabNav5:hover {
+    border-top: 4px solid #d9a300;
+    border-bottom: 1px solid white;
+}
+
+.galleryContext .galleryMain {
+    width: 980px;
+    margin: -20px auto 10px;
+    overflow: hidden;
 }
 
 .galleryContext .galleryMain .waterfallsFlow {
     width: 70%;
+    background-color: white;
+    float: left;
+}
+
+.galleryContext .galleryMain .waterfallsFlow .block {
+    margin: 0 auto;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.galleryContext .galleryMain .waterfallsFlow .block .leftBlock {
+    width: 320px;
+    float: left;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.galleryContext .galleryMain .waterfallsFlow .block .leftBlock .leftLeftBlock {
+    width: 155px;
+    float: left;
+}
+
+.galleryContext .galleryMain .waterfallsFlow .block .leftBlock .leftRightBlock {
+    width: 155px;
+    float: right;
+}
+
+.galleryContext .galleryMain .waterfallsFlow .block .centerBlock {
+    width: 157px;
+    float: left;
+    margin-right: 10px;
+}
+
+.galleryContext .galleryMain .waterfallsFlow .block .rightBlock {
+    width: 157px;
     float: left;
 }
 
@@ -495,6 +602,67 @@ a {
     color: white;
     background-color: #eee;
     border: 1px solid #eee;
+}
+
+.galleryContext .galleryMain .rightBar .rank {
+    background-color: white;
+    height: 180px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.galleryContext .galleryMain .rightBar .rank .rankRoll {
+    overflow: hidden;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.galleryContext .galleryMain .rightBar .rank p {
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+.galleryContext .galleryMain .rightBar .rank .rankRoll .rankNum {
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 10px;
+    background-color: #522a5c;
+    text-align: center;
+    margin-right: 5px;
+    color: white;
+    font-size: 12px;
+    float: left;
+}
+
+.galleryContext .galleryMain .rightBar .rank .rankRoll .rankColor {
+    height: 20px;
+    width: 150px;
+    background-color: black;
+    float: left;
+}
+
+.galleryContext .galleryMain .rightBar .rank .rankRoll .rankName {
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;      
+    float: left;
+}
+
+.galleryContext .galleryMain .more {
+    width: 70%;
+    height: 40px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 /* about.html */
