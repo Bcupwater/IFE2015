@@ -576,6 +576,26 @@ a {
     float: left;
 }
 
+.galleryContext .galleryMain .waterfallsFlow .block img {
+    width: 100%;
+}
+
+.galleryContext .galleryMain .waterfallsFlow .block .imgHeightLev1 {
+    height: 230px;
+}
+
+.galleryContext .galleryMain .waterfallsFlow .block .imgHeightLev2 {
+    height: 200px;
+}
+
+.galleryContext .galleryMain .waterfallsFlow .block .imgHeightLev3 {
+    height: 160px;
+}
+
+.galleryContext .galleryMain .waterfallsFlow .block .imgHeightLev4 {
+    height: 100px;
+}
+
 .galleryContext .galleryMain .rightBar {
     width: 29%;
     float: right;
@@ -615,7 +635,7 @@ a {
     overflow: hidden;
     width: 100%;
     height: 20px;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .galleryContext .galleryMain .rightBar .rank p {
@@ -640,13 +660,43 @@ a {
 
 .galleryContext .galleryMain .rightBar .rank .rankRoll .rankColor {
     height: 20px;
-    width: 150px;
-    background-color: black;
+    width: 120px;
     float: left;
+}
+
+.galleryContext .galleryMain .rightBar .rank .rankRoll .rankColor .rankBar1 {
+    height: 100%;
+    width: 100%;
+    background-color: #522a5c;
+}
+
+.galleryContext .galleryMain .rightBar .rank .rankRoll .rankColor .rankBar2 {
+    height: 100%;
+    width: 80%;
+    background-color: #522a5c;
+}
+
+.galleryContext .galleryMain .rightBar .rank .rankRoll .rankColor .rankBar3 {
+    height: 100%;
+    width: 60%;
+    background-color: #522a5c;
+}
+
+.galleryContext .galleryMain .rightBar .rank .rankRoll .rankColor .rankBar4 {
+    height: 100%;
+    width: 40%;
+    background-color: #522a5c;
+}
+
+.galleryContext .galleryMain .rightBar .rank .rankRoll .rankColor .rankBar5 {
+    height: 100%;
+    width: 20%;
+    background-color: #522a5c;
 }
 
 .galleryContext .galleryMain .rightBar .rank .rankRoll .rankName {
     height: 20px;
+    font-size: 14px;
     line-height: 20px;
     margin-left: 10px;      
     float: left;
